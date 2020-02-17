@@ -50,7 +50,7 @@ var employees = [
     3. Return the updated employee array.
 */
 
-function employeeUpdater(){
+function employeeUpdater(employees){
   for(let i = 0; i < employees.length; i++){
     if (employees[i].firstName === 'Theo'){
       employees.splice(i,1)
@@ -60,6 +60,7 @@ function employeeUpdater(){
     }
     return employees
   }
+}
 
 
 
@@ -176,5 +177,3 @@ var numsArr = [ [1, 2, 3, 4], [5, 6], [7, 8, 9, 10, 11]];
         If the number is even, replace it with 'even'.
     4. Return the modified numsArr.
 */
-
-// Code Here

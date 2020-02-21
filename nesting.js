@@ -186,7 +186,7 @@ function looper(){
     for(let j = 0; j < numsArr[i].length; j++){
       if(numsArr[i][j] % 2 !== 0){
         numsArr[i][j] = 'odd'
-      } if(numsArr[i][j] % 2 === 0){
+      } else {
         numsArr[i][j] = 'even'
       }
     }
